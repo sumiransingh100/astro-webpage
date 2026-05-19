@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 140%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 7% 70% 20%;
+    font-family: Arial;
+}
+
+main nav{
+    background-color: #ede2d8;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
+}
+main nav .first{
+    display: flex;
+    gap: 15%;
+    margin-left: 4em;
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+}
+main nav .first li h2{
+    font-size: 1.8em;
+}
+
+main nav .second{
+    display: flex;
+    align-items: center;
+    margin-right: 8em;
+    gap: 60%;
+    font-size: 1.2em;
+}
+.left{
+    background-color: #FAF5EE;
+    padding: 17% 0% 7% 20%;
+}
+.left h1{
+    font-size: 2.7em;
+    line-height: 1;
+    padding: 3% 0%;
+}
+.left h3{
+    font-size: 0.9em;
+    padding: 5% 0%;
+}
+.left .description_para{
+    font-size: 1em;
+    padding-bottom: 15%;
+}
+
+.center{
+    background-color: #FAF5EE;
+    display: flex;
+    justify-content: center;
+}
+.center img{
+    height: 90%;
+
+}
+
+.right{
+    background-color: #FAF5EE;
+    padding-top: 17%;
+}
+.right h3{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10%;
+    padding-right: 25%;
+}
+.right span{
+    padding: 15px;
+    background-color: rgb(235, 229, 229);
+    margin: 5px;
+    border-radius: 30%;
+}
+.right p{
+    margin: 10% 0% 10% 22%;
+    font-weight: 700;
+}
+.right img{
+    width: 85%;
+}
+.right .btn-1{
+    background-color: transparent;
+    padding: 5% 10%;
+    border-radius: 10%;
+    margin: 5%;
+    font-weight: 800;
+}
+.right .btn-1 i{
+    font-size: 1.3em;
+    padding-right: 2em;
+}
+.right .btn-2{
+    background-color: transparent;
+    padding: 5% 10%;
+    border-radius: 10%;
+    margin: 1% 10%;
+    background-color: #e06406;
+    font-weight: 600;
+    color: white;
+    margin-left: 15%;
+}
+
+.bottom{
+    grid-column: 1/4;
+}
+.bottom img{
+        width: 100%;
+}
